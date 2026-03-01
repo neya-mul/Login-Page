@@ -39,12 +39,12 @@
         <p class="kite-one mx-auto max-w-[200px] text-center">The best delivery app in your country. 50% faster and
             cheaper.</p>
         <button
-            class="bg-[#3370CC] text-white px-6 py-3 rounded-4xl hover:bg-white hover:text-[#3370CC] hover:border hover:drop-shadow-2xl">Get
+            class="bg-[#3370CC] text-white px-6 py-3 rounded-4xl hover:bg-white hover:text-[#3370CC] hover:border hover:drop-shadow-2xl" id="start-btn">Get
             Started</button>
 
     </section>
 
-    <section class="border border-gray-200 pt-8 ">
+    <section class="second-section border border-gray-200 pt-8 hidden">
         <div class="px-2">
             <img src="./package 1.png" class="mx-auto" alt="">
             <h1 class="kirang-haerang text-4xl">Register</h1>
@@ -53,30 +53,32 @@
         <div class="text-center bg-[#3370CC] py-9 px-5 rounded-t-2xl space-y-3">
 
             <h1 class="kite-one mx-auto text-center text-white">Email</h1>
-            <input type="email" class="mx-auto bg-white border-none rounded-2xl">
+            <input type="email" class="mx-auto bg-white border-none rounded-2xl" id="email-acc">
 
             <h1 class="kite-one mx-auto text-center text-white">Username</h1>
-            <input type="text" class="mx-auto bg-white border-none rounded-2xl">
+            <input type="text" class="mx-auto bg-white border-none rounded-2xl" id="name-acc">
 
             <h1 class="kite-one mx-auto text-center text-white">Password</h1>
-            <input type="password" class="mx-auto bg-white border-none rounded-2xl">
+            <input type="password" class="mx-auto bg-white border-none rounded-2xl" id="pass-acc">
 
             <h1 class="kite-one mx-auto text-center text-white">Confirm Password</h1>
-            <input type="password" class="mx-auto bg-white border-none rounded-2xl"> <br>
+            <input type="password" class="mx-auto bg-white border-none rounded-2xl" id="pass-acc-con"> <br>
 
             <div class="flex text-center items-center max-w-[300px] mx-auto">
-                <input type="checkbox" name="option" value="selected_value">
+                <input type="checkbox" name="option" value="selected_value" id="checkbox">
                 <p class="text-sm text-white kite-one">I accept the Terms of Service and Privacy Policy</p>
             </div>
             <button
-                class="bg-[#101A29] kite-one w-[250px] text-white px-9 py-3 rounded-4xl hover:bg-white hover:text-[#3370CC] hover:border hover:drop-shadow-2xl transition ">Register</button>
+                class="bg-[#101A29] kite-one w-[250px] text-white px-9 py-3 rounded-4xl hover:bg-white hover:text-[#3370CC] hover:border hover:drop-shadow-2xl transition " id="register"> Register</button>
+                  <p>Have an account? <button id="login" >Login</button></p>
+
 
         </div>
-
+      
     </section>
 
 
-    <section class="border border-gray-200 pt-6 ">
+    <section class="border border-gray-200 pt-6 hidden">
         <div class="px-3 mb-8">
             <img src="./AppIcon.png" class="mx-auto" alt="">
             <h1 class="kirang-haerang text-4xl">Login</h1>
@@ -101,7 +103,7 @@
         </div>
     </section>
 
-    <section class="border border-gray-200 pt-6 ">
+    <section class="fourth-section border border-gray-200 pt-6 hidden">
 
         <div class="text-center">
             <img src="./Profile Image.png" class="mx-auto" alt="">
@@ -135,7 +137,7 @@
         </div>
 
     </section>
-
+<script src="./script.js"></script>
 </body>
 
 </html>
